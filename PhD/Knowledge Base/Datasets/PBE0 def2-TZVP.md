@@ -1,0 +1,4 @@
+PBE0 def2-TZVP is a computational method used in density functional theory (DFT) calculations for molecular modeling and simulations. It is a combination of the [PBE (Perdew-Burke-Ernzerhof) generalized gradient approximation (GGA) functional](https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.77.3865) and the Hartree-Fock (HF) exchange functional, with the [def2-TZVP basis set](https://gaussian.com/basissets/).
+
+The method involves the calculation of molecular geometries, zero-point vibrational energy, and enthalpy corrections at a specific temperature. The partial charges for the atoms in the molecule are determined using linear equations that best reproduce the electrostatic potential of the molecule. The PBE0 def2-TZVP method is considered to be a best-practice DFT protocol for basic molecular computational chemistry.
+

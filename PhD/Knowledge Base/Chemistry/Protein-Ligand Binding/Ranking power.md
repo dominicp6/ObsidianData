@@ -1,0 +1,3 @@
+"Ranking power" refers to the ability of a scoring function to correctly rank the known ligands of a certain target protein by their binding affinities when the precise binding poses of those ligands are given.
+
+The [Spearman's rank correlation coefficient](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient), [Kendall's rank correlation coefficient](https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient) and the predictive index are used as quantitative indicators of ranking power.

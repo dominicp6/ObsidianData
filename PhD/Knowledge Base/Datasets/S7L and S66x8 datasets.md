@@ -1,0 +1,4 @@
+The S7L and S66x8 datasets are benchmark datasets used to evaluate the accuracy of methods for calculating non-covalent interactions in molecular systems. The S7L dataset contains seven small organic molecules and their dimers, while the S66x8 dataset contains 66 organic dimers and their dissociation curves. Both datasets are widely used in molecular modeling applications, including force-field development, molecular dynamics simulations, and quantum chemistry calculations.
+
+[Dissociation Curves](https://en.wikipedia.org/wiki/Dissociation_curve):
+Dissociation curves are graphical representations of the relationship between the concentration of a substance and its degree of dissociation. In the context of molecular systems, dissociation curves are used to describe the relationship between the interaction energy of two molecules and the distance between them

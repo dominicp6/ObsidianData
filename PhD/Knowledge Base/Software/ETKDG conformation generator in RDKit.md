@@ -1,0 +1,2 @@
+The ETKDG conformation generator is a method used in the RDKit's conformer generator to produce conformers of molecules. It is a stochastic search method that utilizes distance geometry together with knowledge derived from experimental crystal structures. ETKDG was found to outperform standard DG and the knowledge-based conformer generator CONFECT in reproducing crystal conformations from both small molecules and large macrocycles. The conformer generator allows you to provide distance "constraints" to bias the conformers which it produces.
+

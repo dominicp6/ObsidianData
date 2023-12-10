@@ -1,0 +1,71 @@
+The forward diffusion SDE is:
+$$
+d\mathbf{X}_t = - \frac{1}{2}\beta(t)\mathbf{X}_t dt + \sqrt{\beta(t)}d\mathbf{W}_t
+$$
+The reverse diffusion SDE is:
+$$
+d\mathbf{X}_t = [-\frac{1}{2}\beta(t)\mathbf{X}_t - \beta(t)\nabla_{\mathbf{X}} \log q(\mathbf{X}_t)]dt + \sqrt{\beta(t)}d\mathbf{W}_t
+$$
+Typically the reverse diffusion process is solved by EM integration:
+$$
+d\mathbf{X}_{t-1} = [-\frac{1}{2}\beta(t)\mathbf{X}_t - \beta(t)\nabla_{\mathbf{X}} \log q(\mathbf{X}_t)]\Delta t + \sqrt{\beta(t)\Delta t}\mathcal{N}(0, I) 
+$$
+We can consider the reverse SDE as an augmented system:
+$$
+
+d\begin{bmatrix}
+           \mathbf{X} \\
+           t \\
+\end{bmatrix} = \begin{bmatrix}
+           (-\frac{1}{2}\beta(t)\mathbf{X} - \beta(t)\nabla \log q(\mathbf{X}))dt + \sqrt{\beta(t)}d\mathbf{W}_t \\
+           dt \\
+\end{bmatrix}
+$$
+Defining 
+$$
+\hat{X} = \begin{bmatrix}
+           \mathbf{X} \\
+           t \\
+\end{bmatrix}
+$$
+we can also write this as
+$$
+d\hat{X} = \mathbf{f}(\hat{X})dt + \sigma(\hat{X})d\mathbf{W}_t
+$$
+where 
+$$
+\mathbf{f}(\hat{X}) = \begin{bmatrix}
+           -\frac{1}{2}\beta(t)\mathbf{X} - \beta(t)\nabla_X \log q(X) \\
+           t \\
+\end{bmatrix}
+$$
+and 
+$$
+\sigma(\hat{X}) = \begin{bmatrix}
+           \sqrt{\beta(t)} & 0 \\
+           0 & 0 \\
+\end{bmatrix}
+$$
+so this is an instance of noise with configuration-dependent diffusion.
+
+By combining Lamperti transforms with time rescaling, we can map to constant diffusion a $\sigma$ matrix of the form
+$$
+\sigma = \begin{bmatrix}
+           D_1(\hat{X}) & 0 \\
+           0 & D_1(\hat{X})D_2(t) \\
+\end{bmatrix}
+$$
+Choose $D_1(\hat{X})$ and $D_2(t)$  as follows
+$$
+D_1(\hat{X}) = \sqrt{\beta(t)}
+$$
+$$
+D_2(t) = 0
+$$
+This corresponds to a time rescaling
+$$
+\frac{dt}{d\tau} = \frac{1}{\beta(t)}
+$$
+however, the issue is that when it comes to the Lamperti transform, $D_2$ is not invertible!
+
+Also note that the reverse SDE can be transformed to constant diffusion straight away through a time-rescaling. However, this is rather useless because the only reason that we introduced the $\beta(t)$ to be not equal to $1$ was to improve the quality of the training process, and we do not want to undo that.
