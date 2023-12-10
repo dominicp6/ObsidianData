@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PhD/Projects/Diffusion Enhanced Sampling.md",
+                "file": "PhD/Projects/Diffusion Enhanced Sampling/Double Well.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PhD/Projects/Diffusion Enhanced Sampling.md",
+                "file": "PhD/Projects/Diffusion Enhanced Sampling/Double Well.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PhD/Projects/Diffusion Enhanced Sampling.md",
+                "file": "PhD/Projects/Diffusion Enhanced Sampling/Double Well.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PhD/Projects/Diffusion Enhanced Sampling.md",
+                "file": "PhD/Projects/Diffusion Enhanced Sampling/Double Well.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PhD/Projects/Diffusion Enhanced Sampling.md"
+                "file": "PhD/Projects/Diffusion Enhanced Sampling/Double Well.md"
               }
             }
           },
@@ -204,8 +204,23 @@
       "wikipedia-search:Open Article": false
     }
   },
-  "active": "7bec430f1da0222b",
+  "active": "09179ac656a93dd2",
   "lastOpenFiles": [
+    "PhD/Projects/Coordinate transforms for diffusion models.md",
+    "PhD/Papers/Predicting protein variants with equivariant graph neural networks.md",
+    "PhD/Projects/Diffusion Enhanced Sampling",
+    "Predicting protein variants with equivariant graph neural networks.md",
+    "PhD/Projects/AdaptiveFriction/Friction Adaptive Descent.md",
+    "Machine Learning Force Fields.md",
+    "KIF-Key.md",
+    "Friction Adaptive Descent.md",
+    "PhD/Papers/AQDnet Deep Neural Net for Protein-Ligand Docking Simulation.md",
+    "EM.jpeg",
+    "Current Challenges in CG Modelling.md",
+    "Cold Diffusion.md",
+    "AQDnet Deep Neural Net for Protein-Ligand Docking Simulation.md",
+    "PhD/Projects/Diffusion Enhanced Sampling/Double Well.md",
+    "Untitled.md",
     "PhD/Literature/pdf/wu_Stochastic_2007.pdf",
     "Pasted image 20231129143536.png",
     "Pasted image 20231129143504.png",
@@ -219,22 +234,14 @@
     "PhD/Literature/pdf/girardier_Inferring_2023.pdf",
     "PhD/Knowledge Base/Chemistry/Protein sequence prediction",
     "PhD/Knowledge Base/Machine Learning/Equivariant Diffusion for Molecular Generation.md",
-    "PhD/Projects/Diffusion Enhanced Sampling.md",
     "PhD/Knowledge Base/Chemistry/Coarse-Grained Force-Fields/Relative Entropy Framework.md",
     "PhD/Knowledge Base/Chemistry/Mori-Zwanzig theory.md",
     "PhD/Knowledge Base/Chemistry/Gibbs-Bogoliubov-Feynman variational principle.md",
     "PhD/Knowledge Base/Chemistry/Cryptic Binding Pockets.md",
-    "Untitled.md",
-    "Current Challenges in CG Modelling.md",
     "PhD/Projects/Brainstorming/Ideas on coarse-graining and diffusion models.md",
     "Pasted image 20231017132608.png",
     "Pasted image 20231017132132.png",
     "Pasted image 20231017130419.png",
-    "Pasted image 20231017125557.png",
-    "Predicting protein variants with equivariant graph neural networks.md",
-    "Machine Learning Force Fields.md",
-    "Friction Adaptive Descent.md",
-    "AQDnet Deep Neural Net for Protein-Ligand Docking Simulation.md",
     "Pasted image 20230914144159.png.fezekip8.partial",
     "PhD/Knowledge Base/Chemistry/Coarse-Grained Force-Fields/Bottom-up Coarse Graining.md",
     "PhD/Knowledge Base/Machine Learning/Inverse Monte Carlo.md",
@@ -242,15 +249,8 @@
     "Pasted image 20230914144159.png.md",
     "PhD/Knowledge Base/Chemistry/Coarse-Grained Force-Fields/Coarse-Graining - An Overview.md",
     "PhD/Knowledge Base/Chemistry/Coarse-Grained Force-Fields/Go-type models (coarse-graining).md",
-    "PhD/Knowledge Base/Chemistry/Coarse-Grained Force-Fields/Iterative Boltzmann Inversion.md",
-    "PhD/Knowledge Base/Chemistry/Coarse-Grained Force-Fields/Direct Boltzmann inversion.md",
-    "PhD/Knowledge Base/Chemistry/Coarse-Grained Force-Fields/potential of mean force.md",
-    "PhD/Knowledge Base/Chemistry/Coarse-Grained Force-Fields/Native structure-based models.md",
-    "PhD/Papers/Cold Diffusion.md",
     "Pasted image 20230914144159.png.menaxod5.partial",
     "Cold Diffusion.md.rawocul5.partial",
-    "PhD/Knowledge Base/Chemistry/Quantum Chemistry",
-    "PhD/Knowledge Base/Chemistry/Coarse-Grained Force-Fields",
-    "PhD/Projects/Brainstorming"
+    "PhD/Knowledge Base/Chemistry/Quantum Chemistry"
   ]
 }
